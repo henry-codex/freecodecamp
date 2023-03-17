@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- The title of the survey form -->
+    <h1 id="title">Survey Form</h1>
+    <!-- A short explanation about the survey -->
+<p id="description">Please fill out the form below and we will get back to you with our answers.</p>
+
+<!-- The form starts here -->
+<form id="survey-form">
+    <!-- Label and input field for Name -->
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" placeholder="Your name" required> <br>
+
+    <!-- Label and input field for Email -->
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" placeholder="name@example.com" required> <br>
+
+    <!-- Label and input field for Phone Number -->
+    <label id="number-label" for="number">Phone Number:</label>
+    <input type="number" id="number" min="0" max="10" placeholder="Your phone number"> <br>
+    
+
+    <!-- Select dropdown for Products -->
+    <label for="dropdown">Are you interested in our products?</label>
+    <select id='dropdown'>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+
+    <!-- Radio buttons for Updates -->
+    <fieldset>
+        <legend>Would you like to receive updates?</legend>
+        <input type="radio" name="updates" value="yes">Yes<br>
+        <input type="radio" name="updates" value="no">No
+    </fieldset>
+
+    <!-- Checkboxes for Product Categories -->
+    <fieldset>
+        <legend>Product Categories</legend>
+        <input type="checkbox" name="category" value="clothing">Clothing<br>
+        <input type="checkbox" name="category" value="electronics">Electronics<br>
+        <input type="checkbox" name="category" value="accessories">Accessories
+    </fieldset>
+
+    <!-- Textarea for Additional Comments -->
+    <label for="comments">Additional Comments:</label>
+    <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+
+    <!-- Submit button for the form -->
+    <input type="submit" id="submit">
+</form>
+
+<!-- Include any JavaScript files here -->
+<script src="script.js"></script>
