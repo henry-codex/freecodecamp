@@ -1,0 +1,54 @@
+/* Set a background color for the page */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Center the main content container */
+#main {
+  max-width: 800px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some padding to the container */
+  background-color: #fff; /* Set a white background color for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow to the container */
+}
+
+/* Style the page title */
+#title {
+  font-size: 36px; /* Set a large font size */
+  margin-bottom: 20px; /* Add some space below the title */
+  text-align: center; /* Center the title text */
+}
+
+/* Style the image container */
+#img-div {
+  text-align: center; /* Center the image and caption */
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+/* Style the image */
+#image {
+  max-width: 100%; /* Set the maximum width of the image to 100% of its container */
+  display: block; /* Set the image to display as a block element so that we can center it */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style the image caption */
+#img-caption {
+  font-style: italic; /* Add some styling to the caption text */
+  margin-top: 10px; /* Add some space above the caption */
+}
+
+/* Style the tribute information */
+#tribute-info {
+  text-align: justify; /* Justify the text so that it fills the container */
+  line-height: 1.6; /* Set a comfortable line height for readability */
+  font-size: 18px; /* Set a comfortable font size for readability */
+}
+
+/* Style the tribute link */
+#tribute-link {
+  display: block; /* Set the link to display as a block element */
+  margin-top: 20px; /* Add some space above the link */
+  text-align: center; /* Center the link text */
+  font-size: 24px; /* Set a large font size */
+}
