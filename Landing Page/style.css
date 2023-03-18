@@ -1,0 +1,178 @@
+/* Global styles */
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-image: url('https://img.freepik.com/premium-vector/flat-graphic-design-shapes-geometric-wallpaper_549830-35.jpg?w=740');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header styles */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#header-img {
+  height: 50px;
+}
+
+#nav-bar ul {
+  display: flex;
+}
+
+#nav-bar li {
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Main styles */
+main {
+  padding: 50px 0;
+}
+
+#features {
+  text-align: center;
+}
+
+#features ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#features li {
+  margin: 0 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Video styles */
+#video {
+  background-color: #333;
+  color: #fff;
+}
+
+#video h2 {
+  text-align: center;
+}
+
+/*#video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+
+
+
+/* Pricing styles */
+#pricing {
+  text-align: center;
+}
+
+#pricing ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#pricing li {
+  margin: 0 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Contact form styles */
+#contact {
+  text-align: center;
+}
+
+#form {
+  max-width: 500px;
+  margin: auto;
+}
+
+#form label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form input[type="email"] {
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#submit {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #0069d9;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
